@@ -1,0 +1,22 @@
+This is the set of data files for Stat 157 Midterm 2.
+Your task is to use these data to predict the state-by-state
+outcome of the 2012 U.S. Presidential election.
+
+You may use any or all of these data, or you may use your
+own data set if you wish.  Description of each data file is
+found below.
+
+
+election_outcome_2004.dat - State-by-state outcome of the 2004 election.  The columns are State = name of state, Bush = % vote for G.W. Bush, Kerry = % of vote for J. Kerry, Other= % of vote for other candidates, Total.Vote = number of voters
+
+election_outcome_2008.dat - State-by-state outcome of the 2008 election.  Data are in the same format as the 2004 file.
+
+electoral_college_2012.dat - Electoral college for the 2012 election, giving the number of votes allocated to each state.
+
+intrade_2012.dat - Intrade.com odds of an Obama victory in each state, as a function of time.
+
+unemployment.dat - By-state (and U.S.) unemployment percentages for 2004, 2008, and 2012.
+
+polls_2008 - directory containing state-by-state polls of Obama vs. McCain, as scraped from the Huffington Post Pollster website, http://elections.huffingtonpost.com/pollster
+
+polls_2012 - directory containing state-by-state polls of Obama vs. Romney, from http://elections.huffingtonpost.com/pollster

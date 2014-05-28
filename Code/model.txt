@@ -1,0 +1,8 @@
+
+model {
+  for ( i in 1:k){
+  # Likelihood:
+  x[i,] ~ dmulti(theta, n[i])
+  }
+  theta ~ ddirch(alpha)
+}
